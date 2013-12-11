@@ -1,0 +1,14 @@
+<html>
+    <head></head>
+    <body>
+        <h1> {{ title }}</h1>
+        {% block content %}{% endblock %}
+
+        <p>
+            BaseUrl: {{ baseUrl() }} <br />
+            RootUri: {{ rootUri }} <br />
+            AssetUri: {{ assetUri }} <br />
+            ResUri: {{ resourceUri }}
+        </p>
+    </body>
+</html>

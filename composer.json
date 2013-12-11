@@ -1,0 +1,16 @@
+{
+    "require": {
+        "slim/slim": "2.3.*",
+        "slim/views": "0.1.*",
+        "slimcontroller/slimcontroller": "dev-master",
+        "twig/twig": "1.*",
+        "guzzle/guzzle": "3.0.*",
+        "j4mie/idiorm": "1.2.3",
+        "j4mie/paris" : "1.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "application": ""
+        }
+    }
+}
